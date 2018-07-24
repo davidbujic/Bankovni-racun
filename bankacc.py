@@ -26,6 +26,22 @@ class BankAccount(object):
         print "Vrednost podizanja: %.2f dinara." % amount
         self.balance -= amount
         self.show_balance()
+    def converter(self):
+        print "Valute: EURO - Evri, USD- Americki dolari, CHF- Svajcarski franci"
+        currency_options = ["EURO", "USD", "CHF"]
+        currency = raw_input("Unesite valutu koju zelite: ")
+        currency = currency.upper()
+        if currency == "EURO":
+            self.balance = float(self.balance) / 118
+            self.show_balance()
+        elif currency == "USD":
+            self.balance = float(self.balance) / 100
+            self.show_balance()
+        elif currency == "CHF":
+            self.balance = float(self.balance) / 98
+            self.show_balance()
+        else:
+            print "Uneta je nekorektna valuta."
 
 my_account = BankAccount("David Bujic")
 print my_account
@@ -35,4 +51,4 @@ my_account.deposit(0)
 my_account.withdraw(1000)
 print my_account
 my_account.withdraw(1001)
-            
+my_account.converter()
