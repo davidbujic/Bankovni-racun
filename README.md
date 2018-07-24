@@ -1,9 +1,9 @@
 # Bankovni-racun
 
-Kreiran je primer bankovnog racuna koji ima mogucnost da ispise ime korisnickog naloga, stanje racuna i da doda i oduzme odredjenu sumu novca sa racuna.
+Kreiran je primer bankovnog racuna koji ima mogucnost da ispise ime korisnickog naloga, stanje racuna, da doda i oduzme odredjenu sumu novca sa racuna ili da konvertuje stanje racuna u 3 valute.
 
 ## Features
-Kreirane su funkcije kojima se moze uneti ime korisnickog naloga, ispisivanje stanja racuna kao i funkcije za dodavanje i podizanje odredjene sume novca. Nakon svake opcije se moze ispisati stanje racuna korisnika.
+Kreirane su funkcije kojima se moze uneti ime korisnickog naloga, ispisivanje stanja racuna, konverzija stanja racuna u 3 valute, kao i funkcije za dodavanje i podizanje odredjene sume novca. Nakon svake opcije se moze ispisati stanje racuna korisnika.
 
 ## Prerequisites
 Za ovaj projekat su potrebni `GitHub acccount` i `IDLE Python`.
@@ -18,4 +18,5 @@ Pokretanje projekta se vrsi pokretanjem fajla `bankacc.py` u `IDLE Python-u`.
 Pokretanje testova se vrsi pokretanjem fajla `bankacc.py` u `Shell-u IDLE Python-a`.
 
 ## Verzije
-1. Osnovna verzija
+1. Osnovna verzija.
+2. Dodat konvertor stanja racuna i izmenjen readme.md fajl.
