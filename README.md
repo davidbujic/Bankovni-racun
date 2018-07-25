@@ -7,7 +7,7 @@ Kreirane su funkcije kojima se moze uneti ime korisnickog naloga, ispisivanje st
 
 ### Skills
 1. ***pytest***
-2. ***funkkcije sleep, strftime i localtime iz biblioteke time***
+2. ***funkcije sleep, strftime i localtime iz biblioteke time***
 3. ***funckija randint iz biblioteke random***
 
 ## Prerequisites
@@ -25,4 +25,4 @@ Pokretanje testova se vrsi pokretanjem fajla `bankacc.py` u `Shell-u IDLE Python
 ## Verzije
 1. Osnovna verzija.
 2. Dodat konvertor stanja racuna i izmenjen readme.md fajl.
-3. Dodati detalji u Skills
+3. Dodati detalji u Skills i izmenjen naziv projekta
