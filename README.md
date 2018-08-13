@@ -6,9 +6,9 @@ Kreiran je primer bankovnog racuna koji ima mogucnost da ispise ime korisnickog 
 Kreirane su funkcije kojima se moze uneti ime korisnickog naloga, ispisivanje stanja racuna, konverzija stanja racuna u 3 valute, kao i funkcije za dodavanje i podizanje odredjene sume novca. Nakon svake opcije se moze ispisati stanje racuna korisnika.
 
 ### Skills
-1. ***pytest***
-2. ***funkcije sleep, strftime i localtime iz biblioteke time***
-3. ***funckija randint iz biblioteke random***
+1. ***pytest*** (projekat Pytest)
+2. ***funkcije sleep, strftime i localtime iz biblioteke time*** (projekat Kalendar)
+3. ***funckija randint iz biblioteke random*** (projekat Battleship)
 
 ## Prerequisites
 Za ovaj projekat su potrebni `GitHub acccount` i `IDLE Python`.
