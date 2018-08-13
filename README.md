@@ -26,3 +26,4 @@ Pokretanje testova se vrsi pokretanjem fajla `bankacc.py` u `Shell-u IDLE Python
 1. Osnovna verzija.
 2. Dodat konvertor stanja racuna i izmenjen readme.md fajl.
 3. Dodati detalji u Skills i izmenjen naziv projekta
+3. Dodati detalji u Skills vezani za prethodne projekte.
